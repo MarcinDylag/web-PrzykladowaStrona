@@ -1,0 +1,171 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	font-family: 'Forum', cursive;
+	font-size: 25px;
+}
+
+
+#container
+{
+	margin: 0;
+	padding: 0;
+	left: 0;
+	top: 0;
+	background: url("img/skyscraper.jpg") center/cover no-repeat;
+	/*font-family: 'Bodoni Moda', serif; */
+	min-height: 100vh;
+	font-size: 30px;
+	color: #d0ad5e;
+	
+}
+
+#logo
+{
+
+	text-transform: uppercase;
+	font-size: 70px;
+	letter-spacing: 5px;
+	margin-left: 7vw;
+	padding-top: 70vh;
+	text-shadow:
+	2px 2px 0 #c0ac4d,
+	-2px 2px 0 #c0ac4d,
+	-2px -2px 0 #c0ac4d,
+	2px -2px 0 #c0ac4d,
+	
+}
+
+#container p
+{
+	
+	font-style: italic;
+	margin-left: 20vw;
+	text-shadow:
+	2px 2px 0 #c0ac4d,
+	-2px 2px 0 #c0ac4d,
+	-2px -2px 0 #c0ac4d,
+	2px -2px 0 #c0ac4d,
+}
+
+
+.menu 
+{
+	margin: 0;
+	padding: 0;
+	font-size: 32px;
+	color: #d0ad5e;
+	display: flex;
+	border-top: 1px dotted #d0ad5e;
+	border-bottom: 1px dotted #d0ad5e;
+	text-align: center;
+	
+}
+
+@media screen and (max-width: 700px) 
+{
+	#logo
+	{
+		text-align: center;
+		padding-top: 50vh;
+		
+	}
+	.menu 
+	{
+		flex-direction: column;
+		margin: 0;
+		padding: 0;
+	}
+	
+	.menu li
+	{
+	border-bottom: 1px dotted #d0ad5e;
+	padding: 20;
+	}
+	
+	
+}
+
+.menu li
+{
+	list-style-type: none;
+	padding: 20px;
+	border-right: 1px dotted #d0ad5e;
+	flex: 1;
+	
+}
+
+.menu li:first-child
+{
+	border-left: 1px dotted #d0ad5e;
+}
+
+.menu a
+{
+	color: #d0ad5e;
+	text-decoration: none;
+	display: block;
+	padding: 20px;
+	transition: background .3s;
+}
+
+.menu a:hover
+{
+	color: #fff;
+	background-color: #d0ad5e;
+}
+
+.content
+{
+	margin: 0;
+	padding: 0;
+}
+.content h1
+{
+
+	font-size: 80 px;
+	font-weight: 700;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #d0ad5e;
+	background-color: #000f32;
+	border-top: 2px solid #d0ad5e;
+	border-bottom: 2px solid #d0ad5e;
+	padding: 40px;
+
+}
+
+
+
+.content p
+{
+	margin-left: 15vw;
+	margin-right: 15vw;
+
+}
+
+.scrollup
+{
+	width: 64px;
+	height: 64px;
+	text-decoration: none;
+	background: url("img/up.png") no-repeat 0px 0px;
+	position: fixed;
+	right: 5px;
+	bottom: 112px;
+	display: none;
+}
+
+#footer
+{
+	text-align: center;
+	background-color: #000f32;
+	color: #d0ad5e;
+	padding: 40px;
+	font-size: 25px;
+	border-top: 2px solid #d0ad5e;
+	border-bottom: 2px solid #d0ad5e;
+}

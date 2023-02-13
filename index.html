@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="http-equiv=X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="Colosseum Tower - przestrzeń biurowa Twoich marzeń">
+	<meta name="keywords" content="colosseum, tower, office, biuro, marzenia, wynajem, biznes">
+	<title>Colosseum Tower</title>
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,700;1,6..96,400&family=Forum&display=swap" rel="stylesheet">
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="jquery.scrollTo.min.js"></script>
+	
+	<script>
+		jQuery(function($)
+		{
+				//zresetuj scrolla
+				$.scrollTo(0);
+				
+				$('#link1').click(function() {$.scrollTo($('#colosseum'), 1000); });
+				$('#link2').click(function() {$.scrollTo($('#offer'), 1000); });
+				$('#link3').click(function() {$.scrollTo($('#gallery'), 1000); });
+				$('#link4').click(function() {$.scrollTo($('#contact'), 1000); });
+				$('.scrollup').click(function() {$.scrollTo($('#top'), 1000); });
+			
+		}
+		);
+	
+		//pokaż podczas przewijania
+		$(window).scroll(function()
+		{
+				if ($(this).scrollTop()>700)  $('.scrollup').fadeIn();
+				else $('.scrollup').fadeOut();
+		}	
+		);
+		
+	
+	</script>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</head>
+
+<body>
+	<header>
+		<div id="container">
+			<div id="logo">Colosseum Tower </div>
+			<p>przyszłość jest tutaj</p>
+		</div>
+		<nav>
+			<ul class="menu">
+				<li><a id="link1" href="#">Colosseum Tower</a></li>
+				<li><a id="link2" href="#">Oferta</a></li>
+				<li><a id="link3" href="#">Galeria</a></li>
+				<li><a id="link4" href="#">Kontakt</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	
+	<main>
+		
+		<a href="#" class="scrollup"></a>
+		
+		<article>
+			<div class="content" >
+				<header>
+					<h1 id="colosseum">Colosseum Tower</h1>
+				</header>
+				<section>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultricies quis magna et congue. In hac habitasse platea dictumst. Nulla facilisi. Duis sed quam quis lectus lobortis volutpat. Maecenas accumsan, sem ac molestie blandit, elit nibh aliquam orci, at luctus ante ex vitae urna. Aliquam consectetur odio et congue dignissim. Suspendisse pulvinar commodo tortor non malesuada. Nam ullamcorper vitae nisl et vulputate. Sed eleifend mauris ut orci placerat, quis lacinia est venenatis. Mauris sagittis luctus lectus semper finibus. Nulla sagittis, eros eget facilisis bibendum, odio nisl consequat quam, at condimentum turpis nulla vitae odio. Etiam dignissim orci porta sapien egestas, nec ultricies sapien dignissim. Quisque cursus turpis et tortor tristique consectetur. Sed sagittis dui vitae varius pellentesque. Curabitur lobortis lacus elementum est consectetur facilisis. Nulla eu vulputate urna, sit amet accumsan massa.</p>
+				</section>
+				<section>
+					<p>Ut ante mi, rhoncus sit amet convallis eget, condimentum et nulla. Sed vehicula aliquet metus, malesuada tristique nibh sollicitudin et. Nunc gravida scelerisque feugiat. Phasellus ut felis dapibus dui convallis convallis. Maecenas varius eros non ultrices consequat. Praesent quis neque lectus. Nunc tortor velit, congue et purus ut, cursus sollicitudin mi. Quisque accumsan maximus mi cursus lacinia. Duis feugiat nulla eget sollicitudin ornare. Sed tempus eget arcu et molestie. Duis lobortis elit quis metus mollis tempor. Duis hendrerit ultricies ex, non consequat metus sagittis sit amet. Fusce blandit sagittis neque, nec pulvinar massa volutpat non. Nulla sed eros et lectus maximus hendrerit. Donec eu erat imperdiet, mattis nisl eu, blandit lorem. Nulla posuere id lacus ornare faucibus.</p>
+				</section>
+			</div>
+		</article>
+		
+		<article>
+			<div class="content" >
+				<header>
+					<h1 id="offer">Oferta</h1>
+				</header>
+				<section>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultricies quis magna et congue. In hac habitasse platea dictumst. Nulla facilisi. Duis sed quam quis lectus lobortis volutpat. Maecenas accumsan, sem ac molestie blandit, elit nibh aliquam orci, at luctus ante ex vitae urna. Aliquam consectetur odio et congue dignissim. Suspendisse pulvinar commodo tortor non malesuada. Nam ullamcorper vitae nisl et vulputate. Sed eleifend mauris ut orci placerat, quis lacinia est venenatis. Mauris sagittis luctus lectus semper finibus. Nulla sagittis, eros eget facilisis bibendum, odio nisl consequat quam, at condimentum turpis nulla vitae odio. Etiam dignissim orci porta sapien egestas, nec ultricies sapien dignissim. Quisque cursus turpis et tortor tristique consectetur. Sed sagittis dui vitae varius pellentesque. Curabitur lobortis lacus elementum est consectetur facilisis. Nulla eu vulputate urna, sit amet accumsan massa.</p>
+				</section>
+				<section>
+					<p>Ut ante mi, rhoncus sit amet convallis eget, condimentum et nulla. Sed vehicula aliquet metus, malesuada tristique nibh sollicitudin et. Nunc gravida scelerisque feugiat. Phasellus ut felis dapibus dui convallis convallis. Maecenas varius eros non ultrices consequat. Praesent quis neque lectus. Nunc tortor velit, congue et purus ut, cursus sollicitudin mi. Quisque accumsan maximus mi cursus lacinia. Duis feugiat nulla eget sollicitudin ornare. Sed tempus eget arcu et molestie. Duis lobortis elit quis metus mollis tempor. Duis hendrerit ultricies ex, non consequat metus sagittis sit amet. Fusce blandit sagittis neque, nec pulvinar massa volutpat non. Nulla sed eros et lectus maximus hendrerit. Donec eu erat imperdiet, mattis nisl eu, blandit lorem. Nulla posuere id lacus ornare faucibus.</p>
+				</section>
+			</div>
+		</article>
+		
+		<article>
+			<div class="content" >
+				<header>
+					<h1 id="gallery">Galeria</h1>
+				</header>
+				<section>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultricies quis magna et congue. In hac habitasse platea dictumst. Nulla facilisi. Duis sed quam quis lectus lobortis volutpat. Maecenas accumsan, sem ac molestie blandit, elit nibh aliquam orci, at luctus ante ex vitae urna. Aliquam consectetur odio et congue dignissim. Suspendisse pulvinar commodo tortor non malesuada. Nam ullamcorper vitae nisl et vulputate. Sed eleifend mauris ut orci placerat, quis lacinia est venenatis. Mauris sagittis luctus lectus semper finibus. Nulla sagittis, eros eget facilisis bibendum, odio nisl consequat quam, at condimentum turpis nulla vitae odio. Etiam dignissim orci porta sapien egestas, nec ultricies sapien dignissim. Quisque cursus turpis et tortor tristique consectetur. Sed sagittis dui vitae varius pellentesque. Curabitur lobortis lacus elementum est consectetur facilisis. Nulla eu vulputate urna, sit amet accumsan massa.</p>
+				</section>
+				<section>
+					<p>Ut ante mi, rhoncus sit amet convallis eget, condimentum et nulla. Sed vehicula aliquet metus, malesuada tristique nibh sollicitudin et. Nunc gravida scelerisque feugiat. Phasellus ut felis dapibus dui convallis convallis. Maecenas varius eros non ultrices consequat. Praesent quis neque lectus. Nunc tortor velit, congue et purus ut, cursus sollicitudin mi. Quisque accumsan maximus mi cursus lacinia. Duis feugiat nulla eget sollicitudin ornare. Sed tempus eget arcu et molestie. Duis lobortis elit quis metus mollis tempor. Duis hendrerit ultricies ex, non consequat metus sagittis sit amet. Fusce blandit sagittis neque, nec pulvinar massa volutpat non. Nulla sed eros et lectus maximus hendrerit. Donec eu erat imperdiet, mattis nisl eu, blandit lorem. Nulla posuere id lacus ornare faucibus.</p>
+				</section>
+			</div>
+		</article>
+		
+		<article>
+			<div class="content" >
+				<header>
+					<h1 id="contact" >Kontakt</h1>
+				</header>
+				<section>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultricies quis magna et congue. In hac habitasse platea dictumst. Nulla facilisi. Duis sed quam quis lectus lobortis volutpat. Maecenas accumsan, sem ac molestie blandit, elit nibh aliquam orci, at luctus ante ex vitae urna. Aliquam consectetur odio et congue dignissim. Suspendisse pulvinar commodo tortor non malesuada. Nam ullamcorper vitae nisl et vulputate. Sed eleifend mauris ut orci placerat, quis lacinia est venenatis. Mauris sagittis luctus lectus semper finibus. Nulla sagittis, eros eget facilisis bibendum, odio nisl consequat quam, at condimentum turpis nulla vitae odio. Etiam dignissim orci porta sapien egestas, nec ultricies sapien dignissim. Quisque cursus turpis et tortor tristique consectetur. Sed sagittis dui vitae varius pellentesque. Curabitur lobortis lacus elementum est consectetur facilisis. Nulla eu vulputate urna, sit amet accumsan massa.</p>
+				</section>
+				<section>
+					<p>Ut ante mi, rhoncus sit amet convallis eget, condimentum et nulla. Sed vehicula aliquet metus, malesuada tristique nibh sollicitudin et. Nunc gravida scelerisque feugiat. Phasellus ut felis dapibus dui convallis convallis. Maecenas varius eros non ultrices consequat. Praesent quis neque lectus. Nunc tortor velit, congue et purus ut, cursus sollicitudin mi. Quisque accumsan maximus mi cursus lacinia. Duis feugiat nulla eget sollicitudin ornare. Sed tempus eget arcu et molestie. Duis lobortis elit quis metus mollis tempor. Duis hendrerit ultricies ex, non consequat metus sagittis sit amet. Fusce blandit sagittis neque, nec pulvinar massa volutpat non. Nulla sed eros et lectus maximus hendrerit. Donec eu erat imperdiet, mattis nisl eu, blandit lorem. Nulla posuere id lacus ornare faucibus.</p>
+				</section>
+			</div>
+		</article>
+		
+
+		
+	</main>
+	
+	<footer>
+		<div id="footer">Autor: Marcin Dyląg | 2022 &copy; Wszelkie prawa zastrzeżone</div>
+	</footer>
+
+</body>
+
+
+</html>
